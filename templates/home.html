@@ -1,0 +1,7 @@
+<!-- templates/home.html -->
+<h1>List of food items</h1>
+<ul>
+    {% for item in item_list %}
+    <li>{{ item.text }}</li>
+    {% endfor %}
+</ul>
